@@ -1,7 +1,7 @@
 import { useState,useEffect } from 'react'
 import './App.css';
 import ArticleList from './Components/ArticleList'
-
+ 
 function App() {
   const [articles, setArticles] = useState([]);
 
